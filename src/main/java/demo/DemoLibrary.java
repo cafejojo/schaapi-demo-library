@@ -1,6 +1,7 @@
 package demo;
 
-public class DemoLibrary { public String neverEmptyString() { return ""; }
+public class DemoLibrary { 
+	public String neverEmptyString() { return ""; }
 	public char alwaysBChar() { return 'b'; }
 	public int alwaysPositiveInt() { return 10; }
 	public double alwaysPositiveDouble() { return 100.0; }
