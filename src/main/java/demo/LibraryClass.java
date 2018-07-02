@@ -4,8 +4,11 @@ public final class LibraryClass {
   private boolean initialized = false;
   private int initValue = 10;
 
-  public int foo() {
+  public void initialize() {
     initialized = true;
+  }
+  
+  public int foo() {
     return initValue;
   }
 
