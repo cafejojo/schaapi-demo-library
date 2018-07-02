@@ -14,7 +14,7 @@ public final class LibraryClass {
   
   public double bar(int x) {
     int divisor = x;
-    if (!initalized) {
+    if (!initialized) {
       divisor = x - initValue;
     }
     
