@@ -1,7 +1,7 @@
 package demo;
 
 public final class LibraryClass {
-  private boolean initalized = false;
+  private boolean initialized = false;
   private int initValue = 10;
 
   public int foo() {
