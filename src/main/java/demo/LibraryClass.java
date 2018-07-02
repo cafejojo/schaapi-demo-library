@@ -5,7 +5,6 @@ public final class LibraryClass {
   private int initValue = 10;
 
   public int foo() {
-    initialized = true;
     return initValue;
   }
 
